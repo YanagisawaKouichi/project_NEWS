@@ -12,6 +12,7 @@ class History extends Model
         'news_id' => 'required',
         'edited_at' => 'required',
         'profile_id' => 'required',
+        'profileedited_at' => 'required',
         );
 } 
 
