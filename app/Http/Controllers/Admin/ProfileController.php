@@ -4,8 +4,8 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Profile;
 use App\Historyprofile;
-
 use Carbon\Carbon;
+use Storage;
 
 class ProfileController extends Controller
 {
